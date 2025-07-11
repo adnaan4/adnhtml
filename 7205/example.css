@@ -1,0 +1,18 @@
+#head{
+    text-align: center;
+    height: 400px;
+    width: 500px;
+    color: blue;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 50px;
+}
+.box{
+    background-color: pink;
+    border: 15px white;
+
+}
+.td a:hover{
+    color: aqua;
+    text-shadow: 1px ;
+}
