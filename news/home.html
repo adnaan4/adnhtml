@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NEWS
+        </title>
+        <style>
+            .container
+            {
+                display:grid;
+                grid-template-areas:
+                "header header"
+                "menu content"
+                "footer footer";
+                 grid-template-columns: 1fr 3fr;
+                 gap:5px;
+                 background-color: greenyellow;
+                 padding:5px;
+            }
+            .container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+.container > div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container > div.menu {
+  grid-area: menu;
+  text-align: center;
+}
+.container > div.content {
+  grid-area: content;
+  text-align: center;
+}
+.container > div.footer {
+  grid-area: footer;
+  text-align: center;
+}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header"><h1>WELCOME TO TV9</h1></div>
+            <DIV CLASS="menu">
+                <video width="320" height="240" controls>
+  <source src="Nipah Virus Scare In Kerala 609 On Contact List, High Alert In Six Districts - India Today (1).mp3" type="video/mp3">
+  
+</video>
+            </DIV>
+            <div class="content">
+               <marquee>TODAYS HEADLINES:NIPAH VIRUS SCARE IN KERALA 609 ON CONTACT LIST , HIGH ALERT IN SIX DISTRICTS </marquee>
+            </div>
+            <div class="footer">
+                <h2>@grid layout</h2>
+            </div>
+        </div>
+    </body>
+</html>
